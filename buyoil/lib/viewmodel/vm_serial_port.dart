@@ -385,7 +385,7 @@ class SerialPortVM extends _$SerialPortVM {
       if(context != null && context.mounted) {
         showToastMessage(context, "Port not connected");
       }
-    }
+    } 
   }
 
   Future<void> writeToPortRFID(String rfidCommand, {BuildContext? context}) async {
